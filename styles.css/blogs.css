@@ -144,3 +144,59 @@ nav button{
     color: #FFFFFF;
     border: 1px solid rgba(255, 255, 255, 0.3);
 }
+.section2{
+    max-width: 85%;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    align-items: center;
+    text-align: center;
+    padding: 72px 0px;
+}
+.section-heading h1{
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+.section-heading p{
+     font-size: 16px;
+     margin-bottom: 44px;
+}
+   
+.card-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.card{
+    width: 322px;
+    height: 300px;
+    padding: 24px;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    border: none;
+    justify-content: center;
+    text-align: center;
+     box-shadow: 0 6px 50px 0 #67666618;
+
+}
+
+.icon-circle{
+    width: 60px;
+    height: 60px;
+    background-color: #FF6B6B;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 24px;
+}
+.card h2{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    
+}
+.card p{
+    font-size: 16px;
+    line-height: 20px;
+}
