@@ -130,7 +130,7 @@ nav button{
 }
 .btn1 div{
     font-size: 16px;
-    font-weight: 600%;
+    font-weight: 600;
     color: #FFFFFF;
 }
 .btn2{
@@ -269,4 +269,40 @@ nav button{
   font-weight: 500;
   cursor: pointer;
   margin-bottom: 12px;
+}
+
+.section4{
+    width: 100%;
+    height: 348px;
+    background-color: #030c3a;
+    padding: 120px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.footer-content p{
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFFFFF;
+    line-height: 28px;
+    margin-bottom: 16px;
+}
+.footer-icon{
+    display: inline-flex;
+    gap: 16px;
+}
+.footer-icon img{
+    width: 20px;
+    height: 20px;
+
+}
+.footer-bottom p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-align: center;
 }
